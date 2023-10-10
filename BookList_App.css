@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial;
+}
+.header{
+	font-size:  2rem;
+	margin-top: 30px;
+	margin-left: 29rem;
+
+}
+.error{
+	color: red;
+	margin-left:2rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.title1{
+	font-size: 30px;
+	margin-left: 50px;
+}
+.input1{
+	width: 70rem;
+	margin-left: 52px;
+	padding: 10px;
+	margin-bottom: 20px;
+    	outline: none;
+
+}
+.title2{
+	font-size: 30px;
+	margin-left: 50px;
+}
+.input2{
+	width: 70rem;
+	margin-left: 52px;
+	padding: 10px;
+	margin-bottom: 20px;
+     outline: none;
+}
+.title3{
+	font-size: 30px;
+	margin-left: 50px;
+}
+.input3{
+	width: 70rem;
+	margin-left: 52px;
+	padding: 10px;
+	margin-bottom: 30px;
+   	outline: none;
+}
+#btn{
+	width: 70rem;
+	padding: 10px;
+	margin-left: 52px;
+	background-color: blue;
+	color: white;
+	font-size: 15px;
+}
+table{
+	width: 60rem;
+}
+th{
+	text-align: left;
+}
+table, th, td{
+	border: 1px solid #000;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	margin-left: 70px;
+	margin-top: 20px;
+	border-collapse: collapse;
+ }
+
+
+
+
+
+
+/* Media Query Section*/
+
+@media screen and (max-width: 360px){
+     .header{
+     		margin-left: 40px;
+     	  margin-bottom: 30px;
+     	  font-size: 34px;
+     
+	}
+	.error{
+		margin-left: 6rem;
+	 }
+
+     .title1{
+     	font-size: 30px;
+     	margin-left: 20px;
+     }
+
+     .input1{
+     	width: 320px;
+     	margin-left: 20px;
+     	outline: none;
+     }
+
+     .title2{
+     	font-size: 30px;
+     	margin-left: 20px;
+     }
+
+     .input2{
+     	width: 320px;
+     	margin-left: 20px;
+     	outline: none;
+     }
+
+     .title3{
+     	font-size: 30px;
+     	margin-left: 20px;
+     }
+
+     .input3{
+     	width: 320px;
+     	margin-left: 20px;
+     	outline: none;
+
+     }
+
+     #btn{
+     	width: 320px;
+      	margin-left: 20px;
+     }
+
+     table{
+     	width: 17rem;
+     	margin-top: 30px;
+     	margin-left: 40px;
+     }
+}
+
+
